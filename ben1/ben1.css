@@ -1,0 +1,26 @@
+.div{
+   height: 200px;
+   width: 200px;
+position: relative;
+perspective: 1500px;
+}
+.div .ön,.div .arka{
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    backface-visibility: hidden;
+transition: 1s transform;
+}
+.div .ön{
+    background-color: green;
+}
+.div .arka{
+    background-color: red;
+    transform: rotateY(-180deg);
+}
+.div:hover .ön{
+    transform: rotateY(-180deg);
+}
+.div:hover .arka{
+    transform: rotateY(0);
+}

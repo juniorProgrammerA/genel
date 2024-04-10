@@ -1,0 +1,16 @@
+span{
+font-size: 50px;
+}
+.span1{
+
+    color: blueviolet;
+}
+.span2{
+display: inline;
+    border-left: 10px solid red inline-block;
+    transition: 1s border;
+}
+.span2:hover{
+
+    border-left-width: 120px;
+}
