@@ -1,16 +1,35 @@
-span{
-font-size: 50px;
+body{
+    margin: 0;
+    padding: 0;
 }
-.span1{
-
-    color: blueviolet;
+.calculation-screen{
+background-color: grey;
+    width: 370px;
+    height: 100px;
+    position: absolute;
+    margin-left: 700px;
+    margin-top: 300px;
+    border-radius: 30px 30px 0px 0px;
+    font-size: 80px;
+    font-weight: 600;
+    text-align: end;
 }
-.span2{
-display: inline;
-    border-left: 10px solid red inline-block;
-    transition: 1s border;
+.buttons-div{
+width: 370px;
+height: 350px;
+background-color: lightslategray;
+border-radius: 0px 0px 30px 30px;
+margin-top: 395px;
+margin-left: 700px;
+position: absolute;
 }
-.span2:hover{
-
-    border-left-width: 120px;
+button,.button2{
+width: 70px;
+height: 70px;
+border-radius: 50px;
+background-color: greenyellow;
+margin-left: 14px;
+margin-top: 13px;
+font-weight: 900;
+font-size: 24px;
 }
